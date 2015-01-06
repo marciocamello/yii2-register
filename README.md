@@ -34,6 +34,13 @@ The first command installs the [composer asset plugin](https://github.com/franco
 which allows managing bower and npm package dependencies through Composer. You only need to run this command
 once for all. The second command installs Yii in a directory named `basic`. You can choose a different directory name if you want.
 
+Init Environment
+===================
+
+```
+php init
+```
+
 Configure Database Connection
 ===================
 
