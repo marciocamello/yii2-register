@@ -3,9 +3,9 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=yii2advanced',
+            'dsn' => 'mysql:host=localhost:3309;dbname=wozedu_yii2_register',
             'username' => 'root',
-            'password' => '',
+            'password' => 'camello',
             'charset' => 'utf8',
         ],
         'mailer' => [
@@ -16,5 +16,12 @@ return [
             // for the mailer to send real emails.
             'useFileTransport' => true,
         ],
+        /*'urlManager' => [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            'rules' => [
+
+            ],
+        ],*/
     ],
 ];
