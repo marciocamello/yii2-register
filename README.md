@@ -45,7 +45,7 @@ Create a new database and adjust the components.db configuration in common/confi
 'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=yii2advanced',
+            'dsn' => 'mysql:host=localhost;dbname=wozedu_yii2_register',
             'username' => 'root',
             'password' => '',
             'charset' => 'utf8',
