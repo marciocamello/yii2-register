@@ -102,3 +102,13 @@ backend\web\.htaccess
 composer.json
 README.md
 ```
+
+User Table Changes
+=================================================
+
+Add two new columns to User table from migration file
+
+```
+'partner_id' => Schema::TYPE_INTEGER . ' NOT NULL',
+'type' => Schema::TYPE_STRING . ' NOT NULL',
+```
