@@ -5,7 +5,7 @@ return [
             'class' => 'yii\db\Connection',
             'dsn' => 'mysql:host=localhost:3309;dbname=wozedu_yii2_register',
             'username' => 'root',
-            'password' => 'camello',
+            'password' => '',
             'charset' => 'utf8',
         ],
         'mailer' => [
