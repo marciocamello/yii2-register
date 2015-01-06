@@ -111,9 +111,9 @@ class SiteController extends Controller
         }
     }
 
-    public function actionAbout()
+    public function actionProfile()
     {
-        return $this->render('about');
+        return $this->render('profile');
     }
 
     public function actionSignup()
